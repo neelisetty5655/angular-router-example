@@ -1,0 +1,34 @@
+.products{
+    display: flex;
+    flex-wrap: wrap;
+}
+.products div{
+    width: 33.33%;
+    
+    
+}
+.products div img{
+    width: 300px;
+    height: 200px;
+    /* //padding: 10px 0px 0px 30px; */
+    border: 3px solid white;
+    border-radius: 20px;
+}
+.products div p{
+
+padding: 0px 0px 0px 90px;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+color: black;
+font-weight: 10px;
+
+}
+.products div p span{
+    padding: 0px 0px 0px 10px;
+}
+.products div p span:last-child{
+    background-color: #44576A;
+    padding: 3px;
+    border: 1px solid #44576A;
+    border-radius: 10px;
+    color: white;
+}

@@ -1,0 +1,7 @@
+<div  class="products">
+    <div *ngFor="let a of d">
+  <img src="{{a.img}}"alt="image">
+  <p>{{a.name}}<span>{{a.cost}}Rs/-</span><span>
+    <button (click)="addtocart(a)">Add to cart</button>  </span></p>
+    </div>
+</div>
